@@ -1,0 +1,21 @@
+:root {
+  --color-primary: #3c6e71;
+  --color-secondary: #91cb3e;
+  --color-black: #212529;
+  --color-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 6.25%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
