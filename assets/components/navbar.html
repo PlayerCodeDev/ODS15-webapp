@@ -1,0 +1,56 @@
+<nav class="navbar navbar-expand-lg">
+    <div class="container d-flex justify-content-between align-items-center">
+
+        <!-- Logo -->
+        <a class="navbar-brand me-auto" href="index.html">
+            <img src="assets/icons/logo-connat.svg" alt="Logo de CONNAT">
+        </a>
+
+        <!-- NavBar -->
+        <div class="collapse navbar-collapse position-absolute start-50 translate-middle-x" id="main-nav">
+            <ul class="navbar-nav mx-auto d-flex gap-lg-4" id="nav-menu">
+                <li class="nav-item">
+                    <a class="nav-link fs-17 active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-17" href="index.html">Quiénes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-17" href="index.html">Campañas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-17" href="index.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-17" href="index.html">Contáctanos</a>
+                </li>
+            </ul>
+
+            <!-- Search Form -->
+            <form class="hidden" id="search-form" role="search">
+                <label for="navbar-search" class="visually-hidden">Buscar</label>
+                <input class="form-control form-control-sm" id="navbar-search" type="text" placeholder="Buscar...">
+            </form>
+            
+            <!-- Search Button -->
+            <button class="btn search-btn" id="search-toggle" type="button" aria-label="Buscar">
+                <i class="fa-solid fa-magnifying-glass fs-17"></i>
+            </button>
+            
+        </div>
+
+        <div class="d-none d-lg-flex align-items-center ms-3">
+            <a class="btn btn-create-account d-flex align-items-center gap-3" href="#">
+                Crear Cuenta
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <a class="btn btn-login" href="#">Iniciar Sesión</a>
+        </div>
+        
+        <!-- Hamburger Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+</nav>

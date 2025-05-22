@@ -12,10 +12,85 @@
 }
 
 html {
-  font-size: 6.25%;
+  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
 body {
   font-family: "Inter", sans-serif;
+}
+
+/* NavBar */
+
+.fs-17 {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.navbar {
+    background-color: var(--color-primary);
+    height: 105px;
+}
+
+.nav-link {
+    color: var(--color-white);
+    white-space: nowrap;
+}
+
+.nav-link:hover {
+    color: var(--color-secondary);
+}
+
+.nav-link.active {
+    color: var(--color-white) !important;
+    text-decoration-line: underline;
+}
+
+.search-btn {
+    border: none;
+    color: var(--color-white);
+    height: 3.5rem;
+    width: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-left: 1.5rem;
+}
+
+.search-btn:hover {
+    background-color: transparent;
+    color: var(--color-secondary);
+}
+
+#search-form {
+    position: relative;
+    width: 50.8rem;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 1;
+    visibility: visible;
+}
+
+#search-form.hidden {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.btn-create-account {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.5rem;
+    margin-left: 50px;
+}
+
+.btn-login {
+    background-color: transparent;
+    color: var(--color-white);
+    font-size: 1.6rem;
+    width: 600;
+    padding: 0.8rem 1.2rem;
 }
