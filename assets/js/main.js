@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const navbarContainer = document.createElement('div');
     document.body.prepend(navbarContainer);
 
-    fetch('assets/components/navbar.html')
+    fetch('/assets/components/navbar.html')
     .then((res) => res.text())
     .then((html) => {
         navbarContainer.innerHTML = html;
