@@ -1,0 +1,32 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# VS Code settings
+.vscode/
+
+# Temporary system files
+*.log
+*.tmp
+*.swp
+
+# Cache directories
+.cache/
+*.cache
+
+# Backup or temporary files
+*.bak
+*.old
+*~
+
+# Compressed or archive files
+*.zip
+*.tar.gz
+*.rar
