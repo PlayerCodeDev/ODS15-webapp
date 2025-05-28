@@ -1,0 +1,40 @@
+.campaigns-pagination {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination-btn {
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--color-black);
+    transition: background-color 0.3s ease;
+}
+
+.pagination-btn:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border-radius: 4px;
+}
+
+.pagination-btn.active {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border-radius: 4px;
+}
