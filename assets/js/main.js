@@ -2,13 +2,13 @@
 
 // Add the NavBar to the DOM of the HTML file
 document.addEventListener('DOMContentLoaded', () => {
-    const navbarContainer = document.createElement('div');
-    document.body.prepend(navbarContainer);
+    const header = document.createElement('header');
+    document.body.prepend(header);
 
     fetch('/assets/components/navbar.html')
     .then((res) => res.text())
     .then((html) => {
-        navbarContainer.innerHTML = html;
+        header.innerHTML = html;
 
         const searchToggle = document.getElementById('search-toggle');
         const searchForm = document.getElementById('search-form');
