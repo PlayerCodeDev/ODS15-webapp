@@ -1,0 +1,30 @@
+.search-btn {
+    border: none;
+    color: var(--color-white);
+    height: 3.5rem;
+    width: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-left: 1.5rem;
+}
+
+.search-btn:hover {
+    background-color: transparent;
+    color: var(--color-secondary);
+}
+
+#search-form {
+    position: relative;
+    width: 50.8rem;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 1;
+    visibility: visible;
+}
+
+#search-form.hidden {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}

@@ -1,0 +1,18 @@
+.navbar {
+    background-color: var(--color-primary);
+    height: 105px;
+}
+
+.nav-link {
+    color: var(--color-white);
+    white-space: nowrap;
+}
+
+.nav-link:hover {
+    color: var(--color-secondary);
+}
+
+.nav-link.active {
+    color: var(--color-white) !important;
+    text-decoration-line: underline;
+}
