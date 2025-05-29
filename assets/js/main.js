@@ -1,5 +1,8 @@
-import { initNavbar } from './components/navbar.js';
+import loadNavbar from './components/navbar.js';
+import setupSearch from './components/search.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-    initNavbar(); // Add the NavBar to the DOM of the HTML file
+    loadNavbar().then(() => {
+        setupSearch();
+    });
 });
