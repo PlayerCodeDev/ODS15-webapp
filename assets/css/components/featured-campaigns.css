@@ -6,15 +6,12 @@
 
 .featured-card {
     position: relative;
-    background-size: cover;
-    background-position: center;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     color: var(--color-white);
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent 80%);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -98,7 +95,7 @@
 
 .author-name
 .campaign-date {
-  font-size: 1.5rem;
-  font-weight: 400;
-  color: var(--color-white);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--color-white);
 }
