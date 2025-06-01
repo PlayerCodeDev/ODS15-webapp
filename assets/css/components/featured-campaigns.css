@@ -1,0 +1,104 @@
+.featured-campaigns {
+    width: 1200px;
+    height: 530px;
+    margin: 7.1rem auto 0 auto;
+}
+
+.featured-card {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: var(--color-white);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent 80%);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featured-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+.featured-card--lg {
+    width: 590px;
+    height: 530px;
+}
+
+.featured-card--md {
+    width: 590px;
+    height: 243px;
+}
+
+.featured-card--sm {
+    width: 285px;
+    height: 264px;
+}
+
+
+.container-info {
+    margin: 0rem 3rem 3rem 3rem;
+}
+
+
+.featured-card--lg .campaign-title {
+    font-size: 3.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.featured-card--md .campaign-title {
+    font-size: 3.2rem;
+    margin-bottom: 1.4rem;
+}
+
+.featured-card--sm .campaign-title {
+    font-size: 2rem;
+    margin-bottom: 1.9rem;
+}
+
+.campaign-title {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.featured-card--lg .featured-description {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+    max-width: 51rem;
+    max-height: 4.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 3.5rem;
+}
+
+.campaign-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.author-info img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author-name
+.campaign-date {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-white);
+}

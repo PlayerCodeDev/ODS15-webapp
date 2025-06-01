@@ -6,3 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
         setupSearch();
     });
 });
+
+async function loadComponent(path, containerId) {
+    const response = await fetch(path);
+    const html = await response.text();
+    document.getElementById(containerId).innerHTML = html;
+}
+
+loadComponent('/assets/components/featured-campaigns.html', 'featured-campaigns-container');
