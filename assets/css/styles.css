@@ -4,6 +4,7 @@
 /* components */
 @import url(./components/buttons.css);
 @import url(./components/campaign-card.css);
+@import url(./components/featured-campaigns.css);
 @import url(./components/navbar.css);
 @import url(./components/pagination.css);
 @import url(./components/search.css);
@@ -11,3 +12,4 @@
 @import url(./components/tags.css);
 @import url(./components/top-banner.css);
 @import url(./components/featured-campaigns.css);
+@import url(./components/upcoming-events.css);

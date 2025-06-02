@@ -93,8 +93,7 @@
     object-fit: cover;
 }
 
-.author-name
-.campaign-date {
+.author-name, .campaign-date {
     font-size: 1.5rem;
     font-weight: 400;
     color: var(--color-white);
